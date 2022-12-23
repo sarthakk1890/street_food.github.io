@@ -189,6 +189,11 @@ img.imgfluid {
     background-color: white;
 }
 
+.btn-dark:hover{
+    background-color: red;
+    color:white;
+}
+
 .burger{
     display: none;
     position: absolute;
@@ -336,6 +341,7 @@ img.imgfluid {
 }
 
 
+
 @media only screen and (max-width: 1200px){
     .navlist{
         flex-direction: column;
@@ -385,5 +391,9 @@ img.imgfluid {
     }
     .button{
         text-align: center;
+    }
+
+    .button .btn:hover{
+        background-color: #FF0000;
     }
 }
